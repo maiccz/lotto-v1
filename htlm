@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+          <div>
+          <p class="lotto">Lottery numbers</p>
+          <p>Draw 6 numbers from 1 to 49</p>
+          <button id="btn">Click to draw</button>
+          </div>
+          <div class="container" id="cntnr">
+          <div class="ball" id="n1">?</div>
+          <div class="ball" id="n2">?</div>
+          <div class="ball" id="n3">?</div>
+          <div class="ball" id="n4">?</div>
+          <div class="ball" id="n5">?</div>
+          <div class="ball" id="n6">?</div>
+          </div>
+    </body>
+</html>

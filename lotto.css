@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    text-align: center ;
+    color: grey;
+}
+
+.lotto{
+    color: #ffc314;
+    font-size: 400%;
+    margin: 6%;
+    
+}
+
+div{
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+    max-width: 300px;
+    max-height: 60px;
+    font-size: 200%;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #ffd105;
+    border: none;
+    border-radius: 15px;
+}
+
+button:active {
+    background-color: #ffc314;
+    transform: translateY(2px);
+
+}
+.container{
+    width:340px;
+    height:auto;
+    display:flex
+
+}
+.ball{
+    margin-top: 25%;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 215%;
+    text-align: center;
+    padding: 5px;
+    background: radial-gradient(circle at 10px 10px, #ffd105, #ffc314);
+    visibility: hidden;
+}
+
+.transform {
+    animation: fall 0.5s ease-out, rotate 1s ease-out 1s
+}
+  
+@keyframes fall {
+  from   {margin-top: 0%; filter: blur(4px); filter: opacity(40%)}
+  to {margin-top: 25%; filter: blur(0px); filter: opacity(100%)}}
+}
+  
+@keyframes rotate {
+  from   {color:rgba(0, 0, 0, 0);}
+  to {color:rgba(0, 0, 0, 1);}
+}
